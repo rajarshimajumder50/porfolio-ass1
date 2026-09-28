@@ -1,0 +1,960 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RAJARSHI MAJUMDAR — BCA (Hons) Student • Python, AI & Digital Skills Portfolio</title>
+  
+  <!-- SEO & Social Meta -->
+  <meta name="description" content="Portfolio of Rajarshi Majumdar — B.C.A Honours Student at Techno India University, Kolkata. Python, Data Science, AI Prompt Engineering, Digital Marketing, and Automation.">
+  <meta name="author" content="Rajarshi Majumdar">
+  <meta name="theme-color" content="#090204">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Syne:wght@700;800;900&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- Custom Cursor -->
+  <div class="custom-cursor"></div>
+  <div class="custom-cursor-follower"></div>
+
+  <!-- Preloader Screen -->
+  <div id="preloader">
+    <div class="loader-badge">INITIALIZING EXPERIENCES</div>
+    <div class="loader-title">RAJARSHI</div>
+    <div class="loader-bar-wrap">
+      <div id="loader-bar" class="loader-bar"></div>
+    </div>
+    <div id="loader-percent" class="loader-percent">0%</div>
+  </div>
+
+  <!-- Ambient Glow Orbs with Parallax Drift -->
+  <div class="ambient-glow-orb glow-orb-1" data-parallax-speed="0.1"></div>
+  <div class="ambient-glow-orb glow-orb-2" data-parallax-speed="-0.12"></div>
+  <div class="ambient-glow-orb glow-orb-3" data-parallax-speed="0.08"></div>
+
+  <!-- Site Header & Navigation -->
+  <header class="site-header">
+    <div class="nav-container">
+      <a href="#hero-container" class="brand-logo">
+        RAJARSHI<span class="brand-dot"></span>
+      </a>
+
+      <ul class="nav-links">
+        <li><a href="#hero-container" class="nav-link active">01 // Vision</a></li>
+        <li><a href="#projects" class="nav-link">02 // Projects</a></li>
+        <li><a href="#expertise" class="nav-link">03 // Expertise</a></li>
+        <li><a href="#experience" class="nav-link">04 // Experience</a></li>
+        <li><a href="#skills" class="nav-link">05 // Skills</a></li>
+        <li><a href="#about" class="nav-link">06 // About</a></li>
+        <li><a href="#contact" class="nav-link">07 // Contact</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <a href="#contact" class="btn-primary">
+          <span>CONNECT</span>
+          <span>→</span>
+        </a>
+        <button id="mobile-menu-toggle" class="mobile-menu-btn" aria-label="Toggle Navigation Menu" aria-expanded="false">
+          <span class="menu-icon">☰</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Backdrop -->
+  <div id="mobile-nav-backdrop" class="mobile-nav-backdrop"></div>
+
+  <!-- ==========================================================================
+       HERO SCROLL-BOUND CANVAS & PARALLAX TRACK (180-Frame Scrub)
+       ========================================================================== -->
+  <section id="hero-container" class="hero-scroll-container">
+    <div class="hero-sticky-stage">
+      <!-- Pinned HTML5 Canvas for 180-frame image scrubbing -->
+      <canvas id="hero-canvas"></canvas>
+
+      <!-- Cinematic Vignette & Bottom Blend -->
+      <div class="hero-vignette"></div>
+      <div class="hero-bottom-blend"></div>
+
+      <!-- Parallax Story Beats Overlaid on Frame Scrubbing -->
+      <div class="hero-overlay-content">
+        
+        <!-- Beat 1: Intro (0% - 22%) -->
+        <div id="beat-1" class="hero-story-beat">
+          <div class="beat-tag">
+            <span>●</span> B.C.A HONOURS // TECHNO INDIA UNIVERSITY
+          </div>
+          <h1 class="hero-main-title">RAJARSHI<span class="title-space"> </span><br class="mobile-break">MAJUMDAR</h1>
+          <p class="hero-subtitle">
+            Technology, Business &amp; Digital Skills Enthusiast • Fresher specializing in Python, AI Prompt Engineering, Digital Marketing, and Automation.
+          </p>
+          <div class="hero-contact-chips">
+            <span class="hero-chip">📍 Kolkata, WB</span>
+            <span class="hero-chip">✉ rajarshimajumder50@gmail.com</span>
+            <span class="hero-chip">📞 +91 6291030093</span>
+          </div>
+          <div class="scroll-indicator-wrap">
+            <div class="scroll-mouse-pill">
+              <div class="scroll-mouse-dot"></div>
+            </div>
+            <span class="scroll-text">SCROLL TO SCRUB MOTION</span>
+          </div>
+        </div>
+
+        <!-- Beat 2: Split Floating Parallax Cards (25% - 48%) -->
+        <div id="beat-2" class="hero-story-beat">
+          <div class="parallax-split-cards">
+            <div class="p-glass-card tilt-card" data-parallax-speed="-0.06">
+              <div class="card-num">01 // CODE &amp; AUTOMATION</div>
+              <h3>Python &amp; Intelligent AI</h3>
+              <p>
+                Developing analytical solutions using Python fundamentals, data science principles, and cutting-edge AI prompt engineering for real-world workflows.
+              </p>
+            </div>
+            <div class="p-glass-card tilt-card" data-parallax-speed="0.06">
+              <div class="card-num">02 // DIGITAL BUSINESS &amp; GROWTH</div>
+              <h3>Marketing &amp; E-Commerce</h3>
+              <p>
+                Driving online performance through Meta &amp; Google Ads, Amazon/Flipkart affiliate operations, content creation, and strategic digital branding.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Beat 3: Highlights & Career Vision (52% - 74%) -->
+        <div id="beat-3" class="hero-story-beat">
+          <div class="beat-tag">
+            <span>◆</span> CAREER VISION
+          </div>
+          <h2 class="stage-headline-large">
+            BRIDGING CODE, AI &amp; DIGITAL STRATEGY FOR REAL IMPACT
+          </h2>
+          <div class="stage-pills-row">
+            <div class="stage-tech-pill">PYTHON &amp; DATA SCIENCE</div>
+            <div class="stage-tech-pill">AI PROMPT ENGINEERING</div>
+            <div class="stage-tech-pill">META &amp; GOOGLE ADS</div>
+            <div class="stage-tech-pill">WORKFLOW AUTOMATION</div>
+            <div class="stage-tech-pill">KOLKATA, INDIA</div>
+          </div>
+        </div>
+
+        <!-- Beat 4: Transition to Projects (78% - 98%) -->
+        <div id="beat-4" class="hero-story-beat">
+          <div class="enter-showcase-cta">
+            <div class="beat-tag">
+              <span>▼</span> FEATURED BUILDS
+            </div>
+            <h2 class="stage-headline-large" style="font-size: clamp(2.2rem, 5vw, 3.6rem);">
+              PROJECTS &amp; LIVE DEPLOYMENTS
+            </h2>
+            <p class="hero-subtitle">
+              Scroll down to inspect live deployed applications, Python data pipelines, AI tools, and academic credentials.
+            </p>
+            <a href="#projects" class="pulse-arrow-down" aria-label="Scroll to Projects">↓</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       PARALLAX INFINITE TICKER MARQUEE
+       ========================================================================== -->
+  <div class="parallax-marquee-strip">
+    <div class="marquee-content">
+      <span class="marquee-item"><span class="highlight">RAJARSHI MAJUMDAR</span> <span class="marquee-dot"></span> B.C.A HONOURS</span>
+      <span class="marquee-item"><span class="highlight">PYTHON</span> &amp; DATA SCIENCE <span class="marquee-dot"></span></span>
+      <span class="marquee-item"><span class="highlight">AI PROMPT</span> ENGINEERING <span class="marquee-dot"></span></span>
+      <span class="marquee-item"><span class="highlight">DIGITAL MARKETING</span> &amp; E-COMMERCE <span class="marquee-dot"></span></span>
+      <span class="marquee-item"><span class="highlight">TECHNO INDIA</span> UNIVERSITY <span class="marquee-dot"></span></span>
+      <span class="marquee-item"><span class="highlight">WORKFLOW</span> AUTOMATION <span class="marquee-dot"></span></span>
+      <span class="marquee-item"><span class="highlight">RAJARSHI MAJUMDAR</span> <span class="marquee-dot"></span> B.C.A HONOURS</span>
+      <span class="marquee-item"><span class="highlight">PYTHON</span> &amp; DATA SCIENCE <span class="marquee-dot"></span></span>
+      <span class="marquee-item"><span class="highlight">AI PROMPT</span> ENGINEERING <span class="marquee-dot"></span></span>
+      <span class="marquee-item"><span class="highlight">DIGITAL MARKETING</span> &amp; E-COMMERCE <span class="marquee-dot"></span></span>
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+       PROJECTS & LIVE DEPLOYMENTS
+       ========================================================================== -->
+  <section id="projects" class="site-section">
+    <div class="section-header">
+      <span class="section-tag">01 // FEATURED BUILDS &amp; DEPLOYMENTS</span>
+      <h2 class="section-title">PROJECTS &amp; LIVE DEMOS</h2>
+      <p class="section-desc">
+        Explore my software builds, Python automation pipelines, AI tools, and web applications. Click "LIVE DEMO ↗" on any project to view the live deployed application.
+      </p>
+    </div>
+
+    <div class="projects-live-grid">
+
+      <!-- ==========================================
+           PROJECT 1: AI Prompt Flow & Content Studio
+           (CHANGE DEPLOY LINK BELOW)
+           ========================================== -->
+      <div class="project-live-card tilt-card">
+        <div class="project-top-bar">
+          <div class="project-badges-row">
+            <span class="project-domain-tag">AI &amp; AUTOMATION</span>
+            <span class="live-status-pill">
+              <span class="live-pulse-dot"></span> LIVE DEPLOYED
+            </span>
+          </div>
+          <!-- Clickable Live Deploy Button -->
+          <a href="https://ai-prompt-studio-demo.vercel.app" target="_blank" rel="noopener noreferrer" class="btn-deploy-primary" aria-label="Open Live Demo">
+            <span>LIVE DEMO</span>
+            <span>↗</span>
+          </a>
+        </div>
+
+        <h3 class="project-title-live">AI Prompt Flow &amp; Workflow Optimizer</h3>
+        <p class="project-desc-live">
+          An interactive prompt engineering workbench and workflow automation tool designed to generate, test, and optimize prompt pipelines across ChatGPT, Claude, and Gemini models.
+        </p>
+
+        <ul class="project-features-list">
+          <li>Automated prompt templating &amp; token optimization.</li>
+          <li>Multi-LLM comparative response evaluation dashboard.</li>
+          <li>Integrated export to Markdown, JSON, and direct webhook triggers.</li>
+        </ul>
+
+        <div class="project-tech-pills-row">
+          <span class="exp-pill">Python</span>
+          <span class="exp-pill">Streamlit / Next.js</span>
+          <span class="exp-pill">Gemini API</span>
+          <span class="exp-pill">OpenAI API</span>
+          <span class="exp-pill">Workflow Automation</span>
+        </div>
+
+        <div class="project-bottom-bar">
+          <a href="https://ai-prompt-studio-demo.vercel.app" target="_blank" rel="noopener noreferrer" class="project-direct-url">
+            <span>⚡</span>
+            <span>https://ai-prompt-studio-demo.vercel.app</span>
+          </a>
+          <a href="https://github.com/rajarshi-dev" target="_blank" rel="noopener noreferrer" class="link-secondary-code">
+            <span>GITHUB REPO</span>
+            <span>↗</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- ==========================================
+           PROJECT 2: Python Data Science Analytics Hub
+           (CHANGE DEPLOY LINK BELOW)
+           ========================================== -->
+      <div class="project-live-card tilt-card">
+        <div class="project-top-bar">
+          <div class="project-badges-row">
+            <span class="project-domain-tag">DATA SCIENCE &amp; PYTHON</span>
+            <span class="live-status-pill">
+              <span class="live-pulse-dot"></span> LIVE DEPLOYED
+            </span>
+          </div>
+          <!-- Clickable Live Deploy Button -->
+          <a href="https://data-analytics-hub.streamlit.app" target="_blank" rel="noopener noreferrer" class="btn-deploy-primary" aria-label="Open Live Demo">
+            <span>LIVE DEMO</span>
+            <span>↗</span>
+          </a>
+        </div>
+
+        <h3 class="project-title-live">Data Science Analytics &amp; Visualizer</h3>
+        <p class="project-desc-live">
+          A full-stack data analytics application built with Python to parse raw datasets, generate statistical summaries, detect anomalies, and render dynamic interactive charts.
+        </p>
+
+        <ul class="project-features-list">
+          <li>CSV/Excel dataset ingestion with automated data cleaning.</li>
+          <li>Exploratory data analysis with distribution and correlation graphs.</li>
+          <li>Instant report generation and exportable executive summaries.</li>
+        </ul>
+
+        <div class="project-tech-pills-row">
+          <span class="exp-pill">Python</span>
+          <span class="exp-pill">Pandas</span>
+          <span class="exp-pill">NumPy</span>
+          <span class="exp-pill">Plotly</span>
+          <span class="exp-pill">Streamlit Cloud</span>
+        </div>
+
+        <div class="project-bottom-bar">
+          <a href="https://data-analytics-hub.streamlit.app" target="_blank" rel="noopener noreferrer" class="project-direct-url">
+            <span>⚡</span>
+            <span>https://data-analytics-hub.streamlit.app</span>
+          </a>
+          <a href="https://github.com/rajarshi-dev" target="_blank" rel="noopener noreferrer" class="link-secondary-code">
+            <span>GITHUB REPO</span>
+            <span>↗</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- ==========================================
+           PROJECT 3: E-Commerce Affiliate & Ad Telemetry Hub
+           (CHANGE DEPLOY LINK BELOW)
+           ========================================== -->
+      <div class="project-live-card tilt-card">
+        <div class="project-top-bar">
+          <div class="project-badges-row">
+            <span class="project-domain-tag">MARKETING &amp; E-COMMERCE</span>
+            <span class="live-status-pill">
+              <span class="live-pulse-dot"></span> LIVE DEPLOYED
+            </span>
+          </div>
+          <!-- Clickable Live Deploy Button -->
+          <a href="https://ecom-affiliate-portal.vercel.app" target="_blank" rel="noopener noreferrer" class="btn-deploy-primary" aria-label="Open Live Demo">
+            <span>LIVE DEMO</span>
+            <span>↗</span>
+          </a>
+        </div>
+
+        <h3 class="project-title-live">E-Commerce Affiliate Growth &amp; Ad Portal</h3>
+        <p class="project-desc-live">
+          An affiliate product showcase and conversion-optimized landing portal built for Amazon &amp; Flipkart product campaigns with integrated telemetry tracking.
+        </p>
+
+        <ul class="project-features-list">
+          <li>Dynamic product catalog with affiliate click-tracking.</li>
+          <li>Ad campaign telemetry and conversion rate monitoring.</li>
+          <li>Fast mobile-first layout with high SEO scoring and micro-animations.</li>
+        </ul>
+
+        <div class="project-tech-pills-row">
+          <span class="exp-pill">JavaScript</span>
+          <span class="exp-pill">HTML5 / CSS3</span>
+          <span class="exp-pill">Meta Pixel API</span>
+          <span class="exp-pill">Google Analytics 4</span>
+          <span class="exp-pill">Vercel</span>
+        </div>
+
+        <div class="project-bottom-bar">
+          <a href="https://ecom-affiliate-portal.vercel.app" target="_blank" rel="noopener noreferrer" class="project-direct-url">
+            <span>⚡</span>
+            <span>https://ecom-affiliate-portal.vercel.app</span>
+          </a>
+          <a href="https://github.com/rajarshi-dev" target="_blank" rel="noopener noreferrer" class="link-secondary-code">
+            <span>GITHUB REPO</span>
+            <span>↗</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- ==========================================
+           PROJECT 4: Creative Media & Motion Portfolio Hub
+           (CHANGE DEPLOY LINK BELOW)
+           ========================================== -->
+      <div class="project-live-card tilt-card">
+        <div class="project-top-bar">
+          <div class="project-badges-row">
+            <span class="project-domain-tag">CREATIVE &amp; MOTION</span>
+            <span class="live-status-pill">
+              <span class="live-pulse-dot"></span> LIVE DEPLOYED
+            </span>
+          </div>
+          <!-- Clickable Live Deploy Button -->
+          <a href="https://rajarshi-creative-studio.vercel.app" target="_blank" rel="noopener noreferrer" class="btn-deploy-primary" aria-label="Open Live Demo">
+            <span>LIVE DEMO</span>
+            <span>↗</span>
+          </a>
+        </div>
+
+        <h3 class="project-title-live">Creative Motion Studio &amp; Visual Showcase</h3>
+        <p class="project-desc-live">
+          A portfolio platform showcasing video edits, motion graphics, and commercial social media creative assets created using After Effects and CapCut.
+        </p>
+
+        <ul class="project-features-list">
+          <li>Custom video playback and thumbnail showcase gallery.</li>
+          <li>Performance breakdowns and viral campaign metric statistics.</li>
+          <li>Interactive responsive design with clean typography.</li>
+        </ul>
+
+        <div class="project-tech-pills-row">
+          <span class="exp-pill">Web Video APIs</span>
+          <span class="exp-pill">After Effects</span>
+          <span class="exp-pill">CapCut</span>
+          <span class="exp-pill">Responsive UI</span>
+          <span class="exp-pill">Netlify / Vercel</span>
+        </div>
+
+        <div class="project-bottom-bar">
+          <a href="https://rajarshi-creative-studio.vercel.app" target="_blank" rel="noopener noreferrer" class="project-direct-url">
+            <span>⚡</span>
+            <span>https://rajarshi-creative-studio.vercel.app</span>
+          </a>
+          <a href="https://github.com/rajarshi-dev" target="_blank" rel="noopener noreferrer" class="link-secondary-code">
+            <span>GITHUB REPO</span>
+            <span>↗</span>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       EXPERTISE & CORE DOMAINS (NO DUMMY IMAGES)
+       ========================================================================== -->
+  <section id="expertise" class="site-section">
+    <div class="section-header">
+      <span class="section-tag">02 // CORE PILLARS</span>
+      <h2 class="section-title">TECHNICAL &amp; DIGITAL EXPERTISE</h2>
+      <p class="section-desc">
+        Key areas of specialization where software logic, artificial intelligence, and strategic business growth converge.
+      </p>
+    </div>
+
+    <div class="expertise-grid">
+
+      <!-- Domain 1: Python & Data Science -->
+      <div class="expertise-card tilt-card">
+        <div class="exp-icon-wrap">🐍</div>
+        <div class="exp-category">SOFTWARE &amp; DATA</div>
+        <h3 class="exp-title">Python &amp; Data Science Fundamentals</h3>
+        <p class="exp-desc">
+          Trained through Techno Billion AI with solid grounding in Python fundamentals, data science methodologies, and algorithmic problem solving.
+        </p>
+        <ul class="exp-points-list">
+          <li><span class="bullet">●</span> Python programming &amp; script automation</li>
+          <li><span class="bullet">●</span> Data analysis &amp; information extraction</li>
+          <li><span class="bullet">●</span> Algorithm design &amp; structured problem solving</li>
+        </ul>
+        <div class="exp-tech-tags">
+          <span class="exp-pill">Python</span>
+          <span class="exp-pill">JavaScript</span>
+          <span class="exp-pill">Data Science</span>
+          <span class="exp-pill">Automation</span>
+        </div>
+      </div>
+
+      <!-- Domain 2: AI & Prompt Engineering -->
+      <div class="expertise-card tilt-card">
+        <div class="exp-icon-wrap">⚡</div>
+        <div class="exp-category">ARTIFICIAL INTELLIGENCE</div>
+        <h3 class="exp-title">AI &amp; Prompt Engineering</h3>
+        <p class="exp-desc">
+          Proficient in leveraging modern generative AI tools and LLMs for research, content pipelines, automated extraction, and workplace productivity.
+        </p>
+        <ul class="exp-points-list">
+          <li><span class="bullet">●</span> Advanced prompt crafting for ChatGPT, Claude &amp; Gemini</li>
+          <li><span class="bullet">●</span> Perplexity AI deep research &amp; synthesis</li>
+          <li><span class="bullet">●</span> Google Flow &amp; automated workflow design</li>
+        </ul>
+        <div class="exp-tech-tags">
+          <span class="exp-pill">ChatGPT</span>
+          <span class="exp-pill">Claude</span>
+          <span class="exp-pill">Gemini</span>
+          <span class="exp-pill">Perplexity</span>
+          <span class="exp-pill">Prompt Design</span>
+        </div>
+      </div>
+
+      <!-- Domain 3: Digital Marketing & E-Commerce -->
+      <div class="expertise-card tilt-card">
+        <div class="exp-icon-wrap">📈</div>
+        <div class="exp-category">GROWTH &amp; BUSINESS</div>
+        <h3 class="exp-title">Digital Marketing &amp; E-Commerce</h3>
+        <p class="exp-desc">
+          Hands-on experience running performance ads, executing social media campaigns, and managing multi-platform affiliate programs.
+        </p>
+        <ul class="exp-points-list">
+          <li><span class="bullet">●</span> Meta Ads (Facebook &amp; Instagram) &amp; Google Ads</li>
+          <li><span class="bullet">●</span> Amazon &amp; Flipkart affiliate marketing operations</li>
+          <li><span class="bullet">●</span> Online sales strategy &amp; consumer behaviour analysis</li>
+        </ul>
+        <div class="exp-tech-tags">
+          <span class="exp-pill">Meta Ads</span>
+          <span class="exp-pill">Google Ads</span>
+          <span class="exp-pill">Affiliate Marketing</span>
+          <span class="exp-pill">E-Commerce</span>
+        </div>
+      </div>
+
+      <!-- Domain 4: Creative Tools & Video Editing -->
+      <div class="expertise-card tilt-card">
+        <div class="exp-icon-wrap">🎬</div>
+        <div class="exp-category">CREATIVE &amp; MEDIA</div>
+        <h3 class="exp-title">Video Editing &amp; Content Creation</h3>
+        <p class="exp-desc">
+          Creating high-impact digital content, motion graphics, and engaging promotional videos using industry-standard creative software.
+        </p>
+        <ul class="exp-points-list">
+          <li><span class="bullet">●</span> Advanced video editing with After Effects &amp; CapCut</li>
+          <li><span class="bullet">●</span> Alight Motion keyframing &amp; dynamic transitions</li>
+          <li><span class="bullet">●</span> Canva thumbnail design &amp; branding graphics</li>
+        </ul>
+        <div class="exp-tech-tags">
+          <span class="exp-pill">After Effects</span>
+          <span class="exp-pill">CapCut</span>
+          <span class="exp-pill">Alight Motion</span>
+          <span class="exp-pill">Canva</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       EXPERIENCE & EDUCATION TIMELINE
+       ========================================================================== -->
+  <section id="experience" class="site-section">
+    <div class="section-header">
+      <span class="section-tag">02 // TRACK RECORD</span>
+      <h2 class="section-title">EXPERIENCE &amp; EDUCATION</h2>
+      <p class="section-desc">
+        Academic foundation at Techno India University paired with industry internships, certifications, and freelance practice.
+      </p>
+    </div>
+
+    <div class="edu-exp-container">
+
+      <!-- Column 1: Experience -->
+      <div class="timeline-column">
+        <div class="column-header-box">
+          <span class="col-icon">💼</span>
+          <h3 class="col-title">Work Experience &amp; Projects</h3>
+        </div>
+
+        <!-- Experience 1 -->
+        <div class="timeline-card tilt-card">
+          <div class="timeline-top">
+            <div class="timeline-role">Python Intern</div>
+            <span class="timeline-date-chip">INTERNSHIP</span>
+          </div>
+          <div class="timeline-org">Techno Billion AI</div>
+          <p class="timeline-desc">
+            Hands-on technical internship focusing on Python for Data Science and core programming fundamentals.
+          </p>
+          <ul class="timeline-bullets">
+            <li>Mastered Python syntax, data structures, and computational thinking.</li>
+            <li>Applied data science fundamentals to analyze datasets and build logical pipelines.</li>
+            <li>Gained direct knowledge in emerging AI tools, productivity acceleration, and career development.</li>
+          </ul>
+        </div>
+
+        <!-- Experience 2 -->
+        <div class="timeline-card tilt-card">
+          <div class="timeline-top">
+            <div class="timeline-role">Technology, Digital Marketing &amp; AI Specialist</div>
+            <span class="timeline-date-chip">2022 – PRESENT</span>
+          </div>
+          <div class="timeline-org">Self-Learning &amp; Freelance Projects</div>
+          <p class="timeline-desc">
+            Continuous exploration and execution across AI tools, digital marketing campaigns, and creative content creation.
+          </p>
+          <ul class="timeline-bullets">
+            <li>Created digital video edits and creative projects using AI tools and editing software.</li>
+            <li>Engineered prompt workflows for social media marketing and affiliate marketing strategy.</li>
+            <li>Applied analytical problem solving to improve digital productivity and client growth.</li>
+          </ul>
+        </div>
+
+      </div>
+
+      <!-- Column 2: Education & Certifications -->
+      <div class="timeline-column">
+        <div class="column-header-box">
+          <span class="col-icon">🎓</span>
+          <h3 class="col-title">Education &amp; Certifications</h3>
+        </div>
+
+        <!-- Education 1 -->
+        <div class="timeline-card tilt-card">
+          <div class="timeline-top">
+            <div class="timeline-role">Bachelor of Computer Applications (Hons.)</div>
+            <span class="timeline-date-chip">2023 – 2027 (ONGOING)</span>
+          </div>
+          <div class="timeline-org">Techno India University, Kolkata</div>
+          <p class="timeline-desc">
+            Currently in 3rd Year. Rigorous study in computer science fundamentals, software engineering, databases, and programming languages.
+          </p>
+        </div>
+
+        <!-- Education 2 -->
+        <div class="timeline-card tilt-card">
+          <div class="timeline-top">
+            <div class="timeline-role">Higher Secondary (Class XII)</div>
+            <span class="timeline-date-chip">PASSED: 2024</span>
+          </div>
+          <div class="timeline-org">Santragachi Kedarnath Institution</div>
+          <p class="timeline-desc">
+            Completed secondary and higher secondary education with strong analytical and scientific groundwork.
+          </p>
+        </div>
+
+        <!-- Certifications Card -->
+        <div class="timeline-card tilt-card" style="border-left: 3px solid var(--accent-gold);">
+          <div class="timeline-top">
+            <div class="timeline-role">Verified Certifications</div>
+            <span class="timeline-date-chip" style="background: rgba(255, 42, 95, 0.15); color: var(--accent-rose); border-color: var(--border-glow);">2026</span>
+          </div>
+          <div class="timeline-org">Techno Billion AI</div>
+          <ul class="timeline-bullets">
+            <li><strong>Python for Beginners</strong> — Techno Billion AI (2026)</li>
+            <li><strong>Python for Data Science</strong> — Techno Billion AI (2026)</li>
+            <li>Comprehensive knowledge in AI tools, productivity, and professional communication.</li>
+          </ul>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       COMPREHENSIVE SKILLS MATRIX
+       ========================================================================== -->
+  <section id="skills" class="site-section">
+    <div class="section-header">
+      <span class="section-tag">03 // TOOLKIT</span>
+      <h2 class="section-title">TECHNICAL &amp; PROFESSIONAL SKILLS</h2>
+      <p class="section-desc">
+        A structured breakdown of programming languages, AI platforms, digital marketing channels, software suites, and soft skills.
+      </p>
+    </div>
+
+    <div class="skills-matrix-grid">
+
+      <!-- Group 1: Technical & Dev -->
+      <div class="skill-matrix-card">
+        <div class="sm-header">
+          <span class="sm-icon">💻</span>
+          <h4 class="sm-title">Programming &amp; Dev</h4>
+        </div>
+        <div class="sm-tags-list">
+          <span class="skill-tag highlight">Python</span>
+          <span class="skill-tag highlight">JavaScript</span>
+          <span class="skill-tag">AI Prompt Engineering</span>
+          <span class="skill-tag">Technology &amp; Automation</span>
+          <span class="skill-tag">Problem Solving</span>
+          <span class="skill-tag">Data Management</span>
+        </div>
+      </div>
+
+      <!-- Group 2: AI & Emerging Tech -->
+      <div class="skill-matrix-card">
+        <div class="sm-header">
+          <span class="sm-icon">🤖</span>
+          <h4 class="sm-title">AI &amp; Emerging Tech</h4>
+        </div>
+        <div class="sm-tags-list">
+          <span class="skill-tag highlight">ChatGPT</span>
+          <span class="skill-tag highlight">Claude</span>
+          <span class="skill-tag highlight">Gemini</span>
+          <span class="skill-tag">Perplexity AI</span>
+          <span class="skill-tag">Google Flow</span>
+          <span class="skill-tag">AI Research</span>
+          <span class="skill-tag">AI Content Generation</span>
+          <span class="skill-tag">Workflow Automation</span>
+        </div>
+      </div>
+
+      <!-- Group 3: Digital Marketing & E-Commerce -->
+      <div class="skill-matrix-card">
+        <div class="sm-header">
+          <span class="sm-icon">📊</span>
+          <h4 class="sm-title">Marketing &amp; E-Commerce</h4>
+        </div>
+        <div class="sm-tags-list">
+          <span class="skill-tag highlight">Meta Ads (FB/Insta)</span>
+          <span class="skill-tag highlight">Google Ads</span>
+          <span class="skill-tag">Social Media Marketing</span>
+          <span class="skill-tag">Affiliate Marketing</span>
+          <span class="skill-tag">Amazon &amp; Flipkart</span>
+          <span class="skill-tag">E-Commerce Operations</span>
+          <span class="skill-tag">Online Sales Strategy</span>
+          <span class="skill-tag">Consumer Behaviour</span>
+        </div>
+      </div>
+
+      <!-- Group 4: Creative & Video Tools -->
+      <div class="skill-matrix-card">
+        <div class="sm-header">
+          <span class="sm-icon">🎨</span>
+          <h4 class="sm-title">Creative &amp; Video Tools</h4>
+        </div>
+        <div class="sm-tags-list">
+          <span class="skill-tag highlight">Adobe After Effects</span>
+          <span class="skill-tag highlight">CapCut</span>
+          <span class="skill-tag">Alight Motion</span>
+          <span class="skill-tag">Canva</span>
+          <span class="skill-tag">Advanced Video Editing</span>
+          <span class="skill-tag">Thumbnail Design</span>
+          <span class="skill-tag">Motion Graphics</span>
+        </div>
+      </div>
+
+      <!-- Group 5: Productivity & MS Office -->
+      <div class="skill-matrix-card">
+        <div class="sm-header">
+          <span class="sm-icon">📑</span>
+          <h4 class="sm-title">Productivity &amp; Data Tools</h4>
+        </div>
+        <div class="sm-tags-list">
+          <span class="skill-tag highlight">MS Excel</span>
+          <span class="skill-tag">MS Word</span>
+          <span class="skill-tag">MS Access</span>
+          <span class="skill-tag">PowerPoint</span>
+          <span class="skill-tag">Documentation &amp; Reporting</span>
+          <span class="skill-tag">Internet Research</span>
+          <span class="skill-tag">Email Management</span>
+          <span class="skill-tag">Data Entry</span>
+        </div>
+      </div>
+
+      <!-- Group 6: Soft Skills & Languages -->
+      <div class="skill-matrix-card">
+        <div class="sm-header">
+          <span class="sm-icon">🤝</span>
+          <h4 class="sm-title">Professional Soft Skills</h4>
+        </div>
+        <div class="sm-tags-list">
+          <span class="skill-tag">Communication &amp; Presentation</span>
+          <span class="skill-tag">Leadership &amp; Teamwork</span>
+          <span class="skill-tag">Analytical Thinking</span>
+          <span class="skill-tag">Time Management</span>
+          <span class="skill-tag">Growth Mindset</span>
+          <span class="skill-tag">Adaptability</span>
+        </div>
+        <div style="margin-top: 18px; padding-top: 14px; border-top: 1px solid var(--border-subtle);">
+          <div style="font-family: var(--font-mono); font-size: 0.72rem; color: var(--accent-gold); margin-bottom: 8px;">LANGUAGES:</div>
+          <div class="languages-strip">
+            <span class="lang-chip">Bengali <span class="lang-level">(Native)</span></span>
+            <span class="lang-chip">Hindi <span class="lang-level">(Fluent)</span></span>
+            <span class="lang-chip">English <span class="lang-level">(Intermediate)</span></span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Extracurricular & Personal Interests -->
+    <div style="margin-top: 40px; background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: var(--radius-md); padding: 24px 30px;">
+      <div style="font-family: var(--font-mono); font-size: 0.78rem; color: var(--accent-rose); letter-spacing: 0.15em; margin-bottom: 12px; text-transform: uppercase;">
+        EXTRACURRICULAR &amp; AREAS OF PASSION
+      </div>
+      <div class="sm-tags-list">
+        <span class="skill-tag">Technology &amp; AI</span>
+        <span class="skill-tag">Digital Innovation</span>
+        <span class="skill-tag">Stock Market &amp; Finance</span>
+        <span class="skill-tag">Emerging Technologies</span>
+        <span class="skill-tag">Creative Design</span>
+        <span class="skill-tag">Cricket</span>
+        <span class="skill-tag">Swimming</span>
+        <span class="skill-tag">In-depth Tech Research</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       ABOUT & CAREER OBJECTIVE
+       ========================================================================== -->
+  <section id="about" class="site-section">
+    <div class="about-grid">
+      <!-- Image Column -->
+      <div class="about-image-column">
+        <div class="about-portrait-card tilt-card">
+          <img src="hero-portrait-2k.jpg" alt="Rajarshi Majumdar Portrait">
+          <div class="about-floating-badge">
+            <div class="floating-badge-icon">🎓</div>
+            <div>
+              <div class="floating-badge-title">RAJARSHI MAJUMDAR</div>
+              <div class="floating-badge-sub">BCA (HONS) • TECHNO INDIA UNIVERSITY</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Text Column -->
+      <div class="about-text-column">
+        <span class="section-tag">04 // BIOGRAPHY &amp; OBJECTIVE</span>
+        <h3>DRIVING TECHNOLOGY, BUSINESS &amp; CREATIVE INNOVATION</h3>
+        
+        <!-- Career Objective Quote Box -->
+        <div class="career-objective-box">
+          <div class="career-obj-title">CAREER OBJECTIVE</div>
+          <p class="career-obj-text">
+            "BCA student with skills in Python, JavaScript, AI prompting, digital marketing, and technology-driven problem solving, seeking to leverage technical and digital expertise in software development, IT, and emerging technologies while gaining practical industry experience and contributing effectively to organizational success."
+          </p>
+        </div>
+
+        <p>
+          Based in Kolkata, West Bengal, I am an enthusiastic and motivated computer applications scholar at Techno India University. My journey combines deep technical curiosity with commercial business awareness—from writing efficient Python algorithms and automating workflows to orchestrating digital ad campaigns and optimizing digital funnels.
+        </p>
+        <p>
+          I thrive at the intersection of logical engineering, AI-assisted productivity, and creative communication. Whether tackling complex programming assignments, researching emerging tech, or producing high-quality multimedia visuals, I approach every challenge with dedication, learning agility, and attention to detail.
+        </p>
+
+        <!-- Stats Counter Strip -->
+        <div class="stats-counter-strip">
+          <div class="stat-box">
+            <span class="stat-number" data-target="3">3rd</span>
+            <span class="stat-desc">Year BCA (Hons)</span>
+          </div>
+          <div class="stat-box">
+            <span class="stat-number" data-target="2">2+</span>
+            <span class="stat-desc">Techno Billion AI Certs</span>
+          </div>
+          <div class="stat-box">
+            <span class="stat-number" data-target="100">100%</span>
+            <span class="stat-desc">Fresher Readiness</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       OPPORTUNITY / HIRING BANNER
+       ========================================================================== -->
+  <section class="site-section" style="padding-top: 40px; padding-bottom: 40px;">
+    <div class="collaboration-banner">
+      <div class="collab-badge">
+        <span>⚡</span> OPEN FOR IMMEDIATE ROLES
+      </div>
+      <h2 style="font-family: var(--font-display); font-size: clamp(2rem, 4.5vw, 3.2rem); font-weight: 800; color: #fff; margin-bottom: 14px;">
+        LOOKING FOR A DEDICATED FRESHER TALENT?
+      </h2>
+      <p style="color: var(--text-sub); max-width: 650px; margin: 0 auto 28px; font-size: 1rem; line-height: 1.6;">
+        Actively seeking full-time fresher roles, internships, and opportunities in Software Development, IT, AI Implementation, or Digital Marketing. Open to worldwide remote and Kolkata-based on-site positions.
+      </p>
+      <a href="#contact" class="btn-primary" style="padding: 14px 34px; font-size: 0.88rem;">
+        <span>CONNECT WITH RAJARSHI</span>
+        <span>→</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       CONTACT / DIRECT TRANSMISSION
+       ========================================================================== -->
+  <section id="contact" class="site-section">
+    <div class="section-header">
+      <span class="section-tag">05 // GET IN TOUCH</span>
+      <h2 class="section-title">LET'S CONNECT &amp; COLLABORATE</h2>
+      <p class="section-desc">
+        Feel free to reach out directly via email, phone, or WhatsApp for job opportunities, projects, or professional discussions.
+      </p>
+    </div>
+
+    <div class="contact-layout">
+      <!-- Direct Contact Info Cards -->
+      <div class="contact-info-cards">
+        <a href="mailto:rajarshimajumder50@gmail.com" class="c-info-box">
+          <div class="c-icon">✉</div>
+          <div>
+            <div class="c-label">DIRECT EMAIL TRANSMISSION</div>
+            <div class="c-value">rajarshimajumder50@gmail.com</div>
+          </div>
+        </a>
+
+        <a href="tel:+916291030093" class="c-info-box">
+          <div class="c-icon">📞</div>
+          <div>
+            <div class="c-label">DIRECT PHONE CALL</div>
+            <div class="c-value">+91 6291030093</div>
+          </div>
+        </a>
+
+        <a href="https://wa.me/916291030093?text=Hi%20Rajarshi,%20saw%20your%20portfolio!" target="_blank" rel="noopener noreferrer" class="c-info-box">
+          <div class="c-icon">💬</div>
+          <div>
+            <div class="c-label">WHATSAPP INSTANT CHAT</div>
+            <div class="c-value">+91 6291030093 (Click to Chat)</div>
+          </div>
+        </a>
+
+        <div class="c-info-box">
+          <div class="c-icon">📍</div>
+          <div>
+            <div class="c-label">LOCATION &amp; RESIDENCE</div>
+            <div class="c-value">Kolkata, West Bengal, India</div>
+          </div>
+        </div>
+
+        <div class="c-info-box">
+          <div class="c-icon">⚡</div>
+          <div>
+            <div class="c-label">HIRING AVAILABILITY</div>
+            <div class="c-value" style="color: var(--accent-rose);">Open for Full-Time Fresher Roles</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Transmission Form -->
+      <form id="transmission-form" class="contact-form-glass">
+        <div class="form-group">
+          <label class="form-label" for="contact-name">YOUR IDENTITY / RECRUITER NAME</label>
+          <input type="text" id="contact-name" class="form-input" placeholder="e.g. Hiring Manager / Recruiter" required>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="contact-email">CONTACT EMAIL</label>
+          <input type="email" id="contact-email" class="form-input" placeholder="recruiter@company.com" required>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="contact-subject">SUBJECT / ROLE INQUIRY</label>
+          <input type="text" id="contact-subject" class="form-input" placeholder="Software Dev Fresher / Python / Digital Marketing Role" required>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="contact-message">MESSAGE / ROLE DETAILS</label>
+          <textarea id="contact-message" class="form-textarea" placeholder="Tell me about the role, organization, or project..." required></textarea>
+        </div>
+
+        <button type="submit" class="btn-primary" style="align-self: flex-start; padding: 14px 32px; font-size: 0.85rem;">
+          <span>TRANSMIT MESSAGE</span>
+          <span>⚡</span>
+        </button>
+      </form>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       SITE FOOTER
+       ========================================================================== -->
+  <footer class="site-footer">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <h4>RAJARSHI MAJUMDAR.</h4>
+        <p>B.C.A Honours Student • Technology, Business &amp; Digital Skills Enthusiast.</p>
+        <p style="margin-top: 4px; font-family: var(--font-mono); font-size: 0.78rem; color: var(--accent-gold);">Kolkata, West Bengal, India</p>
+      </div>
+
+      <div class="footer-links-row">
+        <a href="#hero-container" class="footer-link">VISION</a>
+        <a href="#projects" class="footer-link">PROJECTS</a>
+        <a href="#expertise" class="footer-link">EXPERTISE</a>
+        <a href="#experience" class="footer-link">EXPERIENCE</a>
+        <a href="#skills" class="footer-link">SKILLS</a>
+        <a href="#about" class="footer-link">ABOUT</a>
+        <a href="#contact" class="footer-link">CONTACT</a>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div>&copy; 2026 RAJARSHI MAJUMDAR. ALL RIGHTS RESERVED.</div>
+      <div class="live-time-indicator">
+        <span class="pulse-record-dot"></span>
+        <span id="live-time">12:00:00 UTC+5:30 (KOLKATA)</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Back to Top Button -->
+  <button id="back-to-top" class="back-to-top-btn" aria-label="Back to Top">↑</button>
+
+  <!-- Scripts -->
+  <script src="js/lenis.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
